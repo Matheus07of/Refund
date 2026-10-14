@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Select } from "./components/Select"
 import { Button } from "./components/Button";
 import { Input } from "./components/Input";
 import { RemoveButton } from "./components/RemoveButton";
@@ -20,5 +21,6 @@ export default function App() {
       setInputValue(event.target.value)
     }}/>
     {inputValue}
+    <Select/>
   </section>
 }
